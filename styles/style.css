@@ -68,11 +68,17 @@ header style start
  /* --------------
  players style start
  ----------------- */
+.main-section{
+    /* align-items: center; */
+}
  .players{
+     width: 1140px;
+     height: 2097px;
      display: grid;
      grid-template-columns: repeat(3,1fr);
      grid-row-gap: 27px;
      grid-column-gap: 30px;
+     /* position: relative; */
  }
  .player{
      width:330px;
@@ -87,7 +93,10 @@ header style start
  .player-info h3{
      font-size: 28px;
  }
- /* -------------
- players style end
-  ---------------*/
+.sponsors{
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+
+  }
 
