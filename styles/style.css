@@ -1,0 +1,60 @@
+/* font style */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+/* -------------
+header style start
+---------------- */
+.header-section{
+    position: absolute;
+    width: 1440px;
+    height: 677px;
+    background-color: #2D25A0;
+}
+.banner{
+    display: flex;
+    justify-content: center;
+    padding-top: 153px;
+    padding-bottom: 96px;
+}
+.banner-text{
+    width: 528px;
+    height: 372px;
+    /* padding-top: 153px; */
+    padding-left: 106px;
+    padding-right: 102px;
+    padding-bottom: 152px;
+}
+.banner-text h1{
+    font-size: 64px;
+    color: white;
+}
+#watch-live{
+    width: 168px;
+    height: 44px;
+    color:white;
+    text-decoration: none;
+    border: 1px solid tomato;
+    background-color: tomato;
+    border-radius: 5px;
+    padding: 10px 24px;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 500px;
+}
+.banner-image img{
+    width: 556px;
+    height: 428;
+}
+.banner-image:hover img{
+    transform: scale(1.2);
+    transition: transform 2s ease-in-out;
+}
+#watch-live:hover{
+    background-color: rgb(165, 9, 9);
+}
+/*-------------
+ header style end
+ ----------------- */
