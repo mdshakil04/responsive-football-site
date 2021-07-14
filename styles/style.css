@@ -123,5 +123,14 @@ footer{
       height: 110px;
   }
   /* footer style end */
+@media screen and (max-width:600px) {
+      body{
+          background-color: lightsalmon;
+      }
+      .banner{
+          display: grid;
+          grid-template-columns: repeat(1,1fr);
+      } 
+  }
 
 
