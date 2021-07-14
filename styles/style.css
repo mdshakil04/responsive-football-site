@@ -68,8 +68,7 @@ header style start
  /* --------------
  players style start
  ----------------- */
-.main-section{
-    /* align-items: center; */
+
 }
  .players{
      width: 1140px;
@@ -98,5 +97,18 @@ header style start
     text-align: center;
     margin-top: 30px;
 
+}
+.news{
+    margin-top: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f3d8d8;
+    padding: 20px;
+    cursor: pointer;
+    width: 100%;
+}
+.news a{
+      text-decoration: none;
   }
 
